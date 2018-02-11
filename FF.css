@@ -1,0 +1,383 @@
+body, html {
+    margin: 0;
+    box-sizing: border-box;
+   padding: 0;
+    border: 0;
+   background-color: rgb(147, 150, 145);
+}
+
+/*container stying for hamburger block*/
+.xmas-title {
+    height: 7rem;
+    background-color: rgb(147, 150, 145);
+}
+
+.container-fluid {
+    margin-right:auto;
+    margin-left:auto;
+    padding: 0;
+
+
+}
+
+.image-circle {
+    border-radius: 50%;
+    width: 8.5rem;
+    height: 10rem;
+    position: relative;
+    top: 0.5rem;
+    left: 2rem;
+    z-index: 1;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .image-circle {
+       display: none;
+    }
+}
+
+/*container for "Stephen Paterson" */
+#titley {
+    left: 2rem;
+    position: relative;
+    top: -2rem;
+    color: white;
+    text-shadow: 2px 2px 3rem black;
+    font-size: 2rem;
+  /*  background-color: rgb(147, 150, 145);*/
+    padding: 1rem, 1rem, 0, 1rem;
+    border: 0;
+}
+
+@media screen and (max-width: 900px) {
+    #titley {
+        left: 1rem;
+        position: relative;
+        top: -22rem;
+        color: red;
+    }
+}
+/* container for "digital portraits" */
+#digi {
+    left: 14rem;
+     position: relative;
+     top: -8rem;
+     color: white;
+     text-shadow: 2px 2px 3rem black;
+     font-size: 1.5rem;
+ }
+
+@media screen and (max-width: 900px) {
+    #titley {
+        left: -11rem;
+        position: relative;
+        top: -1rem;
+        color: rgb(239, 243, 14);
+        text-shadow: 2px 2px 3rem black;
+        font-size: 2rem; 
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #digi {
+        left: -11rem;
+        position: relative;
+        top: -1rem;
+        color: rgb(40, 43, 226);
+        text-shadow: 2px 2px 3rem black;
+        font-size: 2rem; 
+    }
+}
+
+/* container for whole header */
+.beegee {
+    background-color: rgb(147, 150, 145);
+}
+
+/*hamburger menu*/
+.hamburger {
+  font-size: 4rem;
+  color: rgb(241, 234, 234);
+}
+
+.hamburger:hover {
+    font-size: 4rem;
+    color: rgb(238, 176, 207);
+}
+
+/*first slot*/
+.xmas {
+    background-image: url("file:///C:/Users/Stephen%20Paterson/Documents/HTML&CSS/xmas.png");
+    
+       height: 200rem; 
+       width: 100%;
+       /* Create the parallax scrolling effect*/
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: contain;
+       background-color: rgb(147, 150, 145); 
+}
+
+/*code from w3 for zoom, works well on div-commented out for now */
+/*.xmas:hover {
+    -ms-transform: scale(2.5); /* IE 9 */
+ /*   -webkit-transform: scale(2.5); /* Safari 3-8 */
+  /*  transform: scale(2.5); 
+}*/
+
+              
+.xmaschat {
+    color: white;
+    height: 14rem; 
+    margin: 0;
+    border: 0;
+    font-size: 2rem;
+    padding: 4.3rem;
+    width: 100%;
+    text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: rgb(151, 151, 151);
+   
+   
+}
+
+/* slot 2 */
+
+#jamiewarnock {
+    background-image: url("file:///C:/Users/Stephen%20Paterson/Documents/HTML&CSS/jamiewarnock.png");
+    height: 80rem; 
+    width: 100%;
+    /* Create the parallax scrolling effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(102, 93, 184);
+}
+
+#jamiechat {
+    color: rgb(211,211,211);
+    background-color: rgb(102, 93, 184);
+    margin: 0;
+    border: 0;
+    font-size: 4rem;
+    padding: 3.3rem;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*slot3 */
+
+#denirochat {
+    color: black;
+    background-color: white;
+    margin: 0;
+    border: 0;
+    font-size: 2rem;
+    padding: 3.3rem;
+    width: 100%;
+    text-align: center;
+}
+
+/*slot 4 */
+
+#theresastill {
+    background-image: url("file:///C:/Users/Stephen%20Paterson/Documents/HTML&CSS/theresa.jpg");
+    width: 100%;
+    height: 80rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(111,0,211);  
+    margin: 0;
+    border: 0;
+    box-sizing: border-box; 
+}
+
+
+#theresachat {
+    color: white;
+    background-color: rgb(111,0,211); 
+    margin: 0;
+    border: 0;
+    font-size: 2rem;
+    padding: 3.3rem;
+    width: 100%;
+    text-align: center;
+}
+
+/*slot 5 */
+#jimistill {
+    background-image: url("file:///C:/Users/Stephen%20Paterson/Documents/HTML&CSS/jimi.png");
+    /* Set a specific height */
+    width: 100%;
+    height: 80rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: purple;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box; 
+}
+
+#jimichat{
+
+color: white;
+background-color: purple; 
+margin: 0;
+border: 0;
+font-size: 2rem;
+padding: 3.3rem;
+width: 100%;
+text-align: center;
+
+}
+
+/*slot6*/
+.nigstill {
+    background-image: url("file:///C:/Users/Stephen%20Paterson/Documents/HTML&CSS/nigstill.jpg");
+    /* Set a specific height */
+    width: 100%;
+    height: 90rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(31, 73, 55);
+    margin: 0;
+    border: 0;
+    box-sizing: border-box; 
+   
+}
+/*code from w3 for zoom, works well on div */
+.nigstill:hover {
+    -ms-transform: scale(5.5); /* IE 9 */
+    -webkit-transform: scale(5.5); /* Safari 3-8 */
+    transform: scale(5.5); 
+}
+
+
+
+#nigchat {
+    color: white;
+    background-color: rgb(31, 73, 55);
+    margin: 0;
+    border: 0;
+    font-size: 2rem;
+    padding: 3.3rem;
+    width: 100%;
+    text-align: center;
+}
+/*slot7*/
+
+#paulstill {
+    background-image: url("file:///C:/Users/Stephen%20Paterson/Documents/HTML&CSS/Pete.png");
+    /* Set a specific height */
+    width: 100%;
+    height: 90rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(117, 7, 7);
+    margin: 0;
+    border: 0;
+    box-sizing: border-box; 
+}
+
+#paulchat {
+    color: white;
+    background: linear-gradient(grey, black);
+    margin: 0;
+    border: 0;
+    padding: 1rem;
+    padding: 3.3rem;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/*slot8*/
+
+#petestill {
+    background-image: url("file:///C:/Users/Stephen%20Paterson/Documents/HTML&CSS/paul.jpg");
+    /* Set a specific height */
+   width: 100%;
+   height: 100rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box; 
+}
+
+#petechat {
+    color: white;
+    background-color: rgb(117, 7, 7);
+    margin: 0;
+    border: 0;
+    font-size: 2rem;
+    padding: 3.3rem;
+    width: 100%;
+    text-align: center;
+}
+
+/*slot9*/
+
+#nobbystill {
+    background-image: url("file:///C:/Users/Stephen%20Paterson/Documents/HTML&CSS/nobby.png");
+    /* Set a specific height */
+   width: 100%;
+   height: 100rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(136, 5, 5);
+    margin: 0;
+    border: 0;
+    box-sizing: border-box; 
+}
+
+#nobbychat {
+    color: white;
+    background-color: rgb(136, 5, 5);
+    margin: 0;
+    border: 0;
+    font-size: 2rem;
+    padding: 3.3rem;
+    width: 100%;
+    text-align: center;
+/*
+#vid {
+    position: relative;
+    left: 1rem;
+    background-color: white;
+}
+
+.vid2 {
+    position: relative;
+    left: 1rem;
+    background-color: white;
+}
+
+#vid3 {
+    position: relative;
+   
+    background-color: black;
+}*/
